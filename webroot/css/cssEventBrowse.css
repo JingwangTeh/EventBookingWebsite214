@@ -1,0 +1,170 @@
+/* **************** *
+ * Event Browse CSS *
+ * **************** */
+
+/* Event Browse Container */ 
+.event_browse_container {
+}
+
+/* Event Browse  Section */
+.event_browse_section {
+}
+
+/* Event Browse Information in Row */
+.event_browse_section > div {
+	width: 85%;
+	margin: 0 auto;
+}
+.event_browse_section > div > div {
+}
+
+
+
+/* Event Browse Filters */
+.event_browse_filter {
+	padding: 0px;
+	margin: 10px auto;
+}
+.event_browse_filter div input{
+	width: 80%;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+.event_browse_filter div button{
+	width: 39px;
+	height: 39px;
+	margin-top: -6px;
+	margin-left: -43px;
+}
+.ui-menu-item {
+	text-align: center;
+}
+
+
+/* Event Browse Information (Right Content) */
+.event_browse_right {
+}
+.event_browse_right > div{
+	margin: 20px 5px;
+}
+
+/* Event List Div */
+.event_browse_right > div > div{
+	background-color: #f1f1f1;
+	
+	border-radius: 5px;
+}
+/* Event Browse - Event List (same as above) */
+.event_browse_eventList {
+    padding: 10px;
+	margin: 0px;
+}
+
+/* Event Browse Title */
+.event_browse_title {
+	text-align: center;
+}
+.event_browse_title h1{
+	font-size: 30px;
+	font-weight: bold;
+	
+	display: inline-block;
+	margin-top: 15px;
+	padding: 0px;
+}
+.div_separator {
+	height: 0px;
+	border-top: 4px solid black;
+	clear: both;
+}
+
+/* Event Browse Event List Content */
+.event_browse_eventList_content {
+}
+
+.event_browse_eventList_content > div{
+	width: 75%;
+	margin: 5px auto;
+	padding: 10px;
+	
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.event_browse_eventList_content > div > h2{
+	color: grey;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0px;
+}
+.event_browse_eventList_content > div > p{
+	
+	font-size: 14px;
+	margin: 10px 0px;
+}
+.event_browse_eventList_content > div > a{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: grey;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+
+/* Pagination */
+.paginationDiv {
+	width: 95%;
+	text-align: center;
+	margin: 15px auto;
+}
+.paginationDiv li{
+	width: 36px;
+	height: 36px;
+	
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px 5px;
+	
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 50%;
+}
+.paginationDiv li.active{
+	background-color: lightgrey;
+	border: 1px solid lightgrey;
+	border-radius: 50%;
+}
+.paginationDiv li:hover {
+	background-color: lightgrey;
+}
+.paginationDiv li a,
+.paginationDiv li a:hover,
+.paginationDiv li a:active,
+.paginationDiv li a:visited,
+.paginationDiv li a:focus{
+	text-decoration: none;
+}
+.paginationDiv li a {
+	font-size: 26px;
+	color: grey;
+	background-color: transparent;
+}
+.paginationDiv li a:hover,
+.paginationDiv li:hover a {
+	color: grey;
+	background-color: lightgrey;
+}
+
+/* Utility CSS */
+.vertical_center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}

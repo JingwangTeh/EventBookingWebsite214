@@ -1,0 +1,134 @@
+/* ********** *
+ * Header CSS *
+ * ********** */
+ 
+/* Header Container */
+.header {
+	background-color: #2c3e50;
+	
+	border: 0;
+	border-radius: 0px;
+	margin: 0px;
+}
+.header > div {
+	padding: 0px;
+}
+
+/* Header Content */
+.header_content {
+	text-align: center;
+	width: 65%;
+	
+	margin: 0 auto;
+	padding-top: 195px;
+	padding-bottom: 185px;
+}
+
+/* Header Title Div */
+.header_title {
+}
+/* Header Title Text */
+.header_title a{
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	
+	vertical-align: middle;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+/* Header Description Div */
+.header_description {
+}
+/* Header Description Text */
+.header_description p{
+	color: white;
+	font-style: italic;
+	font-size: 25px;
+	
+	vertical-align: middle;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+/* Header Shortcuts Div */
+.header_shortcuts {
+}
+.header_shortcuts p {
+	color: white;
+}
+/* Header Shortcuts Text */
+.header_shortcuts a,
+.header_shortcuts a:hover,
+.header_shortcuts a:focus {
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	
+	vertical-align: middle;
+	line-height: 30px;
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+
+/* ********** *
+ * Footer CSS *
+ * ********** */
+
+ /* Footer Container */
+.footer {
+	background-color : #2c3e50;	
+}
+.footer > div {
+	padding: 0px;
+}
+
+/* Footer Content */
+.footer_content {
+	text-align: center;
+	width: 65%;
+	
+	margin: 0 auto;
+	padding-top: 35px;
+	padding-bottom: 55px;
+}
+
+/* Footer Links Div */
+.footer_links {
+	font-size: 32px;
+	padding: 0px;
+}
+.footer_links p{
+	color: white;
+}
+
+/* Footer Description Div */
+.footer_description {
+}
+.footer_description p{
+	color: white;
+	font-size: 15px;
+}
+
+/* Footer Copyright Div */
+.footer_copyright {
+	margin-top: 30px;
+}
+.footer_copyright p{
+	color: white;
+	font-size: 12px;
+}
+
+
+
+/* Utility CSS */
+.vertical_center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}

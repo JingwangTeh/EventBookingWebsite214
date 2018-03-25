@@ -1,0 +1,236 @@
+/* *********************** *
+ * Event Creation Form CSS *
+ * *********************** */
+
+/* Form Container */ 
+.form_container {
+}
+
+/* Form Section */
+.form_section {
+	/* other colors:
+	background-color: #4d79ff;*/
+}
+
+/* Form Information in Row */
+.form_section > div {
+	width: 60%;
+	margin: 0 auto;
+}
+.form_section > div > div {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+/* Form Information */
+#form_details {
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
+}
+/* Form Error Message */
+#form_details div.error{
+	color: #ff3333;
+}
+
+
+/* Form Title */
+#form_details_title {
+	text-align: center;
+}
+#form_details_title h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 30px;
+	display: block;
+	float: left;
+}
+.CreateBtn {
+	font-size: 28px;
+	color: white;
+	background-color: #179b24;
+	
+	border: 1px solid #179b24;
+	border-radius: 5px;
+	
+	margin-top: 15px;
+	margin-right: 10px;
+	padding: 2px 5px;
+	float:right;
+	display: block;
+}
+.CreateBtn:link,
+.CreateBtn:visited,
+.CreateBtn:hover,
+.CreateBtn:active {
+	text-decoration: none;
+	color: white;
+}
+#form_details_separator {
+	height: 0px;
+	border-top: 4px solid black;
+	clear: both;
+}
+
+/* Form Content */
+#form_details_content {
+	color: black;
+	font-size: 20px;
+	
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+/* Form Content Section */
+.form_details_content_section {	
+}
+.form_details_content_section > span{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	
+	background-color: blue;
+	
+	display: inline-block;
+}
+.form_details_content_section > h2{
+	color: grey;
+	font-size: 28px;
+	vertical-align: bottom;
+	display: inline-block;
+}
+.form_details_content_section > hr{
+	color: grey;
+	background-color: grey;
+	border-color: grey;
+	margin-top: -1px;
+}
+
+/* Form Content Section Input */
+.form_details_content_section label {
+	display: block;
+}
+.form_details_content_section input {
+	color: grey;
+	width: 70%;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	padding: 5px;
+}
+.form_details_content_section textarea {
+	color: grey;
+	width: 70%;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	padding: 5px;
+}
+.form_details_content_section select {
+	color: grey;
+	width: 70%;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	padding: 5px;
+}
+.form_details_content_section div.input {
+	margin-bottom: 15px;
+}
+
+#bookEventPopup {
+	width: 300px;
+	height: 200px;
+	
+	background: lightgrey;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	padding: 10px;
+	z-index: 20;
+}
+#bookEventPopup input{
+	font-size: 28px;
+	width: 270px;
+	height: 60px;
+	
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+#bookEventPopup button{
+	width: 180px;
+	margin: 10px auto;
+	float: none;
+}
+/* Form Label *
+div#user_form_details label {
+	/* other colors: 
+	color: #ccd9ff;*
+	padding-right: 10px;
+}
+/* Form Input *
+div#user_form_details input {
+	/* other colors: 
+	color: #0039e6;*
+}
+/* Form Button *
+div#user_form_details > form > button{
+	/* other colors: 
+	color: #0039e6;*
+	width: 40%;
+	margin: 10px;
+}
+@media screen and (max-width: 1000px) {
+	div#user_form_details > form > button{
+		width: 55%;
+	}
+}
+@media screen and (max-width: 800px) {
+	div#user_form_details > form > button{
+		width: 66.67%;
+	}
+}
+@media screen and (max-width: 600px) {
+	div#user_form_details > form > button{
+		width: 80%;
+	}
+}
+
+/* Utility CSS */
+.message {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	
+	color: red;
+	padding-bottom: 10px;
+}
+.success {
+	color: green;
+}
+
+#form_details_content .success {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	
+	color: lightgreen;
+	padding-bottom: 5px;
+}
+#form_details_content .error {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	
+	color: red;
+	padding-bottom: 10px;
+}
+.vertical_center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}

@@ -1,0 +1,110 @@
+/* ************** *
+ * Login Form CSS *
+ * ************** */
+
+/* User Form Container */ 
+.user_form {
+}
+
+/* User Form Section */
+.user_form_section {
+	background-color: white;
+	/* other colors:
+	background-color: #4d79ff;*/
+}
+
+/* User Form Information in Row */
+.user_form_section > div {
+	width: 60%;
+	margin: 0 auto;
+}
+.user_form_section > div > div {
+}
+
+/* User Form Information */
+.user_form_details {
+	text-align: center;
+	
+	background-color: #DDD;
+	border-radius: 5px;
+	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* User Form Error Message */
+.user_form_details div.error{
+	color: #ff3333;
+}
+
+/* Form Title */
+#form_title {
+	font-family: Cursive;
+	font-size: 28px;
+	font-weight: bold;
+}
+/* User Form Separator */
+.user_form_details hr{
+	color: grey;
+	background-color: grey;
+	border-color: grey;
+	
+	height: 2px;
+	width: 250px;
+	
+	margin-bottom: 25px;
+}
+/* Form Input */
+#form_fields input {
+	font-size: 20px;
+	color: grey;
+	
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 8px;
+}
+/* Form Button */
+.user_form_details > form > button{
+	width: 265px;
+	height: 35px;
+	
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background-color: #00ab44;
+	
+	border: 0px;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+@media screen and (max-width: 530px) {
+	.user_form_details hr{
+		width: 225px;
+	}
+	#form_fields input {
+		width: 200px;
+	}
+	.user_form_details > form > button{
+		width: 200px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.user_form_details > form > button{
+		
+	}
+}
+@media screen and (max-width: 600px) {
+	.user_form_details > form > button{
+	
+	}
+}
+
+/* Utility CSS */
+.vertical_center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
